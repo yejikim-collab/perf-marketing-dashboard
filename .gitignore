@@ -1,0 +1,16 @@
+# 실데이터는 로컬에만 (raw_data 폴더 구조/문서는 유지)
+raw_data/channel/*.csv
+raw_data/appsflyer/*.csv
+
+# 이 폴더의 다른 일회성 산출물 (대시보드와 무관)
+claude-config-pack-marketer-windows.zip
+_extract_tmp/
+naver_sunglasses_top10.csv
+CLAUDE.md
+
+# python
+__pycache__/
+*.pyc
+
+# streamlit 비밀값 (있을 경우)
+.streamlit/secrets.toml
